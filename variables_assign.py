@@ -8,7 +8,7 @@ print(c)
 a=b=c="RAGHAV"
 print(a)
 
-#unpack a collection
+#unpack a collection--extract the values into variables
 clothes=["kurta","pajama","shirts","pants","coat"]
 x,y,z,w,q=clothes
 print(x)
