@@ -1,5 +1,7 @@
 n=int(input())
-for i in range(n):
-    print(" "*(n-i-1),end="")
-    print("*"*(2*i+1),end="")
-    print(" "*(n-i-1))
+for i in range(1,n+1):
+    for j in range(n-i+1):
+        print(' ',end='')
+    for j in range(n-i+1):
+        print('*',end='')
+    print()
