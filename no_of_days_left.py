@@ -1,0 +1,1 @@
+date=input("enter the date in dd/mm/year format")
